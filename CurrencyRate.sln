@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyRate.Api", "src\CurrencyRate.Api\CurrencyRate.Api.csproj", "{E223E8EF-CFD3-4B19-9747-38035B81D405}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0B20DB56-14B4-4CCF-AF24-DBF648BB5821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jenkins", "jenkins", "{51CF3D13-8A83-42FF-9370-74BD9338A27F}"
+	ProjectSection(SolutionItems) = preProject
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyRate.Api.Tests", "tests\CurrencyRate.Api.Tests\CurrencyRate.Api.Tests.csproj", "{84194C84-75C3-276D-00FD-92FA846DDFEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E223E8EF-CFD3-4B19-9747-38035B81D405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E223E8EF-CFD3-4B19-9747-38035B81D405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E223E8EF-CFD3-4B19-9747-38035B81D405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E223E8EF-CFD3-4B19-9747-38035B81D405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84194C84-75C3-276D-00FD-92FA846DDFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84194C84-75C3-276D-00FD-92FA846DDFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84194C84-75C3-276D-00FD-92FA846DDFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84194C84-75C3-276D-00FD-92FA846DDFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E223E8EF-CFD3-4B19-9747-38035B81D405} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{84194C84-75C3-276D-00FD-92FA846DDFEF} = {0B20DB56-14B4-4CCF-AF24-DBF648BB5821}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96F0559-77B2-4239-9153-F507EA151BD8}
+	EndGlobalSection
+EndGlobal

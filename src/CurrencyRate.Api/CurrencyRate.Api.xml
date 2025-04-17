@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CurrencyRate.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CurrencyRate.Api.Controllers.ValuteCursController.GetRates(System.Nullable{System.DateTime},System.Nullable{System.Int32})">
+            <summary>
+            Получение курса валют
+            </summary>
+            <param name="date">Дата курса</param>
+            <param name="code">Код валюты</param>
+            <returns>Список курса валют</returns>
+            <response code="200">Успешное выполнение</response>
+            <response code="204">Данные отсутсвуют</response>
+        </member>
+    </members>
+</doc>
